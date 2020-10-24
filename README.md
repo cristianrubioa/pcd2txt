@@ -4,7 +4,7 @@
 
 [![C++: solutions](https://img.shields.io/badge/C++-Solutions-blue.svg?style=flat&logo=c%2B%2B)](https://es.wikipedia.org/wiki/C%2B%2B) [![support level: community](https://img.shields.io/badge/support%20level-community-lightgray.png)](http://wiki.ros.org/Industrial)
 
-> C++ application to convert .pcd file (point cloud) into txt format (xyzi).
+> C++ application to convert .pcd file (point cloud data) into txt format (xyzi).
 
 ## Input file structure
 
@@ -31,7 +31,7 @@ Check your .pcd file with: `head <pcd file>`
 - txt_cloud.txt
 
 ```
- x       y      z    intensity       # position (not printable)
+  x      y      z    intensity       # position (not printable)
 -0.1    0.1    0.1    0.0741
 -0.2    0.2    0.2    0.0762
 ...     ...    ...    ...
