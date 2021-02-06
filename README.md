@@ -52,7 +52,6 @@ You can install pcl using:
 sudo apt install libpcl-dev
 ```
 
-**Note:** set "your own" pcl build dir in [PCL_DIR](https://github.com/cristianrubioa/pcd2txt/blob/main/src/CMakeLists.txt#L22): ```e.g: /opt/pcl-1.8.1/build``` and save it.
 
 ## Compile
 
